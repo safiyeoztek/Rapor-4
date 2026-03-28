@@ -1,0 +1,14 @@
+RAPOR 4
+
+
+Teknik anlamda bir dosya, ikincil depolama birimlerinde (HDD, SSD) saklanan, birbiriyle ilişkili veriler dizisidir. İşletim sistemi için bir dosya, sadece bir bayt dizisidir, içeriğinin ne olduğu o veriyi işleyen uygulama için anlam ifade eder. Dosya, kullanıcının veriye isim vererek erişebildiği, verilerin saklandığı, işlendiği ve yönetildiği en küçük saklama birimidir.
+
+Klasörler ise diğer dosyaların konumlarını tutan özel veri yapılarıdır. Bu iç içe yapı birçok nedenle tercih edilir. Bilgisayarda birçok dosya varken aynı isimli dosyaları farklı projeler içinde kullanabilmenizi sağlar. Dallanma sayesinde İşletim sistemi bir dosyayı ararken tüm diski aramakla vakit kaybetmez. Hiyerarşi, karmaşıklığı önler ve yapıyı basitleştirir.
+
+Linux'un en temel tasarım kararlarından biri olan "Her şey dosyadır" yaklaşımında sadece dokümanlar değil; klavyeler, fareler ve hatta ağ bağlantıları  birer dosya gibi görünür. Bu sayede bir sensörden veri almak, bir metin belgesini okumak kadar standart hale gelir.
+
+Eğer bu hiyerarşik yapı olmasaydı, bilgisayar kullanımı daha karmaşık hale gelirdi.
+
+Milyonlarca dosya tek bir listede olacağından aradığınız bir şeyi bulmak dakikalar sürerdi ve aynı ismi taşıyan iki dosya var olamazdı. Her yeni donanım için farklı bir iletişim protokolü öğrenmek gerekirdi. Belirli klasörlere erişim yetkisi tanımlamak imkansız hale gelirdi.
+
+Sonuç olarak dosya sistemi mimarisi bir alışkanlık değil; veriyi düzenli tutmak ve sistem performansını optimize etmek için geliştirilmiş bir tasarım kararıdır.
